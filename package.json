@@ -27,7 +27,7 @@
   },
   "scripts": {
     "start": "node server.js",
-    "dev": "cross-env PORT=4000 nodemon",
+    "dev": "cross-env PORT=4000 nodemon --legacy-watch",
     "test:e2e": "cross-env NODE_ENV=test cypress open",
     "test:ci": "cross-env NODE_ENV=test cypress run",
     "test": "node node_modules/grunt-cli/bin/grunt test",
